@@ -67,25 +67,28 @@
 <body>
     <div class="container">
         <h1><span class="app-name">G-Score</span> Privacy Policy</h1>
-        <p class="last-updated">Last Updated: January 2026</p>
+        <p class="last-updated">Last Updated: February 5, 2026</p>
 
         <p>This Privacy Policy describes how G-Score ("we", "our", or "the App") collects, uses, and protects your information when you use our mobile application.</p>
 
         <h2>Information We Collect</h2>
         <p>When you use G-Score, we may collect the following information:</p>
         <ul>
-            <li><strong>Account Information:</strong> When you sign in with Google or Apple, we receive your email address, name, and profile picture from your authentication provider.</li>
-            <li><strong>Photos and Videos:</strong> Images and videos you upload to score your Guinness pints. These are used solely for generating your G-Score.</li>
-            <li><strong>Scores and Activity:</strong> Your G-Scores, pub tags, and leaderboard rankings.</li>
-            <li><strong>Location Data:</strong> If you grant permission, we use your location to find nearby pubs. This data is not stored on our servers.</li>
+            <li><strong>Contact Information:</strong> When you sign in with Google, we receive your email address, name, and profile picture from your authentication provider.</li>
+            <li><strong>Photos:</strong> Images you upload to score your Guinness pints. These are used solely for generating your G-Score via AI analysis.</li>
+            <li><strong>User Content:</strong> Your scores, pub ratings, comments, reviews, and username.</li>
+            <li><strong>User ID:</strong> A unique identifier associated with your account.</li>
+            <li><strong>Usage Data:</strong> Information about how you interact with the app (features used, app launches, scores submitted).</li>
+            <li><strong>Coarse Location Data:</strong> If you grant permission, we use your approximate location to find nearby pubs. This data is used temporarily for search only and is not linked to your identity or stored on our servers.</li>
         </ul>
 
         <h2>How We Use Your Information</h2>
         <ul>
-            <li><strong>Scoring:</strong> Your uploaded photos/videos are sent to OpenAI's vision API to analyze and score your Guinness split. Images are processed in real-time and are not permanently stored by OpenAI.</li>
-            <li><strong>Leaderboards:</strong> Your username and scores may appear on public leaderboards within the app.</li>
-            <li><strong>Pub Discovery:</strong> We use Google Maps to help you find and tag pubs.</li>
-            <li><strong>App Improvement:</strong> Aggregated, anonymized data may be used to improve the scoring algorithm and app experience.</li>
+            <li><strong>AI-Powered Scoring:</strong> Your uploaded photos are analyzed using OpenAI's GPT-4o Vision API to score your Guinness split. <strong>Important:</strong> Your photos are NOT used to train AI models. OpenAI retains data for 30 days for abuse monitoring, then automatically deletes it. No personal information (name, email) is shared with OpenAI—only the photos you upload for scoring.</li>
+            <li><strong>App Functionality:</strong> To provide core features including authentication, leaderboards, pub discovery, social features, and score tracking.</li>
+            <li><strong>Leaderboards:</strong> Your username, profile picture, and scores may appear on public leaderboards within the app.</li>
+            <li><strong>Pub Discovery:</strong> Your coarse location (if granted) is used temporarily to show nearby pubs. Location is not stored or linked to your identity.</li>
+            <li><strong>Product Interaction Analytics:</strong> We track app usage (features used, scores submitted) to improve the app experience.</li>
         </ul>
 
         <h2>Data Storage and Security</h2>
@@ -94,26 +97,41 @@
         <h2>Third-Party Services</h2>
         <p>G-Score uses the following third-party services:</p>
         <ul>
-            <li><strong>Supabase:</strong> Authentication and database storage</li>
-            <li><strong>OpenAI:</strong> Image analysis for scoring (images are processed but not retained)</li>
-            <li><strong>Google Maps:</strong> Pub search and location services</li>
-            <li><strong>Google Sign-In / Apple Sign-In:</strong> Authentication</li>
+            <li><strong>Supabase:</strong> Secure database storage and authentication (<a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>OpenAI:</strong> AI-powered image analysis for scoring. Photos are processed via API but NOT used for AI training. Data is retained for 30 days for abuse monitoring, then deleted. (<a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a>)</li>
+            <li><strong>Google Maps:</strong> Pub search and location services (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Google Sign-In:</strong> Secure authentication (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+        </ul>
+        
+        <h2>What We DON'T Do With Your Data</h2>
+        <ul>
+            <li><strong>No Tracking:</strong> We do not track you across other apps or websites</li>
+            <li><strong>No Selling Data:</strong> We never sell your personal information to third parties</li>
+            <li><strong>No Advertising:</strong> We don't use your data for targeted advertising</li>
+            <li><strong>No AI Training:</strong> Your photos are NOT used to train AI models</li>
         </ul>
 
         <h2>Data Retention</h2>
-        <p>Your account data and scores are retained as long as you maintain an active account. You may request deletion of your account and associated data at any time by contacting us.</p>
+        <ul>
+            <li><strong>Account Data:</strong> Retained until you delete your account</li>
+            <li><strong>Photos & Scores:</strong> Retained indefinitely unless you delete them</li>
+            <li><strong>OpenAI Processing:</strong> Photos sent to OpenAI are retained for 30 days for abuse monitoring, then automatically deleted</li>
+            <li><strong>Usage Logs:</strong> Retained for 90 days for analytics and debugging</li>
+        </ul>
 
         <h2>Your Rights</h2>
         <p>You have the right to:</p>
         <ul>
-            <li>Access your personal data</li>
-            <li>Request correction of inaccurate data</li>
-            <li>Request deletion of your data</li>
-            <li>Withdraw consent for data processing</li>
+            <li><strong>Access:</strong> View and download your personal data</li>
+            <li><strong>Update:</strong> Correct or update your profile information</li>
+            <li><strong>Delete:</strong> Request deletion of your account and all associated data</li>
+            <li><strong>Control:</strong> Manage location and camera permissions in iOS Settings</li>
+            <li><strong>Withdraw Consent:</strong> You can stop using the app at any time</li>
         </ul>
+        <p>To exercise these rights, contact us at <a href="mailto:info@decantdecide.com">info@decantdecide.com</a> or use the in-app settings.</p>
 
         <h2>Children's Privacy</h2>
-        <p>G-Score is intended for users who are of legal drinking age in their jurisdiction. We do not knowingly collect information from anyone under the legal drinking age.</p>
+        <p>G-Score is rated 17+ and is intended only for users who are of legal drinking age (17+ or older depending on jurisdiction). We do not knowingly collect information from anyone under 17 years of age. If you believe we have collected information from someone under 17, please contact us immediately.</p>
 
         <h2>Changes to This Policy</h2>
         <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
